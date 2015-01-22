@@ -5,8 +5,8 @@ Bitquest is lacking the following folders and structure:
 regions\
 regions\map.xml
 map.xml
-  <Map>
-  </Map>
+  #<Map>
+  #</Map>
   
 session\
 
@@ -15,8 +15,8 @@ users\
 store\
 store\modules.xml
 modules.xml
-  <Items>
-  </Items>
+  #<Items>
+  #</Items>
 
 Which can be created by hand to make the game work.
 
