@@ -1,0 +1,716 @@
+.mainFrame
+{
+    background-color: #2E434E;
+    height: 750px;
+    width: 600px;
+    position: absolute;
+    left:210px;
+    background-image:url("img/background.jpg");
+
+    border: dashed 1px;
+    box-shadow: 9px 11px 1px #888888;
+}
+
+.Frame
+{
+    background-color: #2E434E;
+    border: dashed 1px;
+    box-shadow: 9px 11px 1px #888888;
+}
+
+.Blackout
+{
+    left: 0px;
+    top: 0px;
+    position: absolute;
+    width: 600px;
+    height: 750px;
+    opacity: 0.87;
+    background: black;
+}
+
+.Clearance
+{
+    display: block;
+    left: 130px;
+    top: 100px;
+    position: absolute;
+    background: black;
+    overflow: auto;
+    border: double 5px;
+    border-color: #254E63;
+    width: 400px;
+    height: 250px;
+    opacity: 0.90;
+}
+
+.autoscroll
+{
+    overflow: auto;
+}
+
+
+.Blackout2
+{
+    position: absolute;
+    width: 180px;
+    height: 750px;
+    opacity: 0.87;
+    background: black;
+}
+
+.Blackout3
+{
+    position: absolute;
+    width: 180px;
+    height: 750px;
+    opacity: 0.87;
+    background: black;
+}
+
+.Initialize
+{
+    left: 0px;
+    top: 0px;
+    position: absolute;
+    width: 500px;
+    height: 650px;
+    border: solid 2px;
+    border-radius: 3px;
+    background-image: url(img/background.jpg);
+    padding: 50px;
+    text-align: center;
+}
+
+.ConsoleText
+{
+    margin: 10px;
+    padding-top: 15px;
+}
+
+p
+{
+    color: #35c5ff;
+}
+
+.dcolor
+{
+    color: #35c5ff;
+}
+.resourcesIndicator
+{
+    margin: 3px;
+}
+
+h2
+{
+    color: #2978a1;
+    font-size: 24px !important;
+    /*border-bottom: solid 1px;
+    border-color: #35c5ff;*/
+}
+
+.pointsIndicator
+{
+    border-bottom: solid 1px;
+    border-color: #35c5ff;
+    text-align: center;
+    bottom: -16px;
+    left: 7px;
+    position: absolute;
+}
+
+.pointsTab
+{
+    border: solid 1px;
+    border-color: #35c5ff;
+    right: 3px;
+    position: absolute;
+    width: 19px;
+    height: 19px;
+}
+
+.Botonpuntos
+{
+    background: transparent;
+    color: #35c5ff;
+    border: none;
+}
+
+.Console
+{
+    margin: 5px;
+
+    border: double 5px;
+    border-color: #254E63;
+    width: 576px;
+    height: 200px;
+    /*border: solid 1px;
+    border-color: #202020;*/
+    background-color: white;
+    padding: 2px;
+    overflow: auto;
+    box-shadow: 0px 0px 12px #888888;
+}
+
+.Slots
+{
+    position: absolute;
+    height: 38px;
+    width: 102px;
+
+
+
+    left: 86px;
+    top: 359px;
+
+
+    text-align: center;
+
+}
+
+.Slot
+{
+    height: 30px;
+    width: 26px;
+    border: double 3px;
+    border-radius: 1px;
+    border-color: #2c434e;
+    background-color: #38515d;
+    font-size: 12pt;
+    color: darkgreen;
+
+
+
+    box-shadow: 1px 1px 1px #888888;
+
+    text-align: center;
+
+}
+
+.smallInfo
+{
+    width: 17px;
+    height: 21px;
+    position: absolute;
+    top: 2px;
+    margin-left: -54px;
+    background: #38515d;
+    color: #35c5ff;
+    font-style: italic;
+    border: solid 1px;
+    border-color: black;
+    box-shadow: 1px 1px 1px #888888;
+}
+
+.Friend
+{
+
+    border-bottom: solid 1px;
+    border-color: #35c5ff;
+    border-radius: 7px;
+}
+
+.storeBox
+{
+    position: absolute;
+    background: rgba(80, 110, 128, 0.86);
+    width: 572px;
+    height: 450px;
+    overflow: auto;
+    border: double 5px;
+    border-color: #254E63;
+    top: 30px;
+    margin: 10px;
+}
+
+.rankingBox
+{
+    position: absolute;
+    background: rgba(80, 110, 128, 0.86);
+    width: 552px;
+    height: 450px;
+    overflow: auto;
+    border: double 5px;
+    border-color: #254E63;
+    top: 30px;
+    margin: 10px;
+}
+
+.statisticsBox
+{
+    position: absolute;
+    background: rgba(80, 110, 128, 0.86);
+    width: 552px;
+    height: 450px;
+    overflow: auto;
+    border: double 5px;
+    border-color: #254E63;
+    top: 30px;
+    margin: 10px;
+}
+
+.infoBox
+{
+    position: absolute;
+    border: double 3px;
+    background: rgb(57, 67, 82);
+    left: 350px;
+    top: 120px;
+    color: #35c5ff;
+    border-color: black;
+    padding: 10px;
+    width: 350px;
+}
+
+.mapBox
+{
+    display: inline-table;
+    position: absolute;
+    background: rgba(80, 110, 128, 0.86);
+    height: 700px;
+    overflow: auto;
+    border: double 5px;
+    border-color: #254E63;
+    width: 992px !important;
+    top: 100px;
+    left: 0px;
+    background-image: url('img/bit.png');
+    margin: 10px;
+}
+
+.closeButton
+{
+    border-radius: 7px 0px 7px 0px;
+    border: solid 1px;
+    border-color: #336A86;
+    background: #254E63;
+    color: #35c5ff;
+    width: 30px;
+}
+
+.StoreButton
+{
+    border: solid 1px;
+    border-radius: 1px 1 1 6;
+    background: #336A86;
+    color: #35c5ff;
+    border-color: #4380A0;
+    height: 23px;
+}
+
+.StoreInput
+{
+    width: 50px;
+    border: solid 2px;
+    border-radius: 1px 3 0 1;
+    background: #336A86;
+    color: green;
+    border-color: #4380A0;
+    height: 21px;
+    text-align: center;
+}
+
+.tabButton
+{
+    border: solid 1px;
+    border-color: #336A86;
+    background: #254E63;
+    color: #35c5ff;
+    width: 80px;
+    text-align: center;
+    font-weight: bold;
+}
+
+h3
+{
+    color: #35c5ff
+}
+
+.itemRow
+{
+    padding-top: 3px;
+    border-bottom: solid 6px;
+    border-color: #283D44;
+    width: 534px;
+    height: 37px;
+    background: rgba(26, 44, 77, 0.55);
+    line-height: 0%;
+    margin: 2px;
+    margin-top: 4px;
+    border-radius: 22px;
+    margin-bottom: 10px;
+    padding-left: 8px;
+    padding-right: 8px;
+}
+
+.Profile
+{
+    padding: 10px;
+}
+
+.InviteButton
+{
+    border: solid 1px;
+    border-radius: 6px 0 0 0;
+    background: #678fa3;
+}
+
+.playerRank
+{
+
+    background: linear-gradient(to bottom, #2e434e 0%,#37454c 52%,rgba(211, 216, 218, 0.48) 87%,#474b56 100%);
+    /*linear-gradient(to bottom, #2e434e 0%,#37454c 46%,#9eafbf 87%,#474b56 100%); */ /* W3C */
+    border-bottom: solid 1px;
+    border-color: #9eafbf;
+    border-radius: 3px;
+    height: 37px;
+}
+
+.playerRank2
+{
+    background: linear-gradient(to bottom, rgba(46, 67, 78, 0) 0%,#37454c 87%,#04080C 87%,#474b56 100%);
+    border-bottom: solid 1px;
+    border-color: #9eafbf;
+    border-radius: 3px;
+    height: 37px;
+}
+
+.itemSquare
+{
+    position: relative;
+    height: 114px;
+    width: 114px;
+    border: double 7px;
+    border-radius: 6px;
+    border-color: black;
+
+    background-color: #f0f0f0;
+
+    margin-top: 50px;
+    margin-bottom: 30px;
+
+    box-shadow: 2px 3px 1px #888888;
+
+    text-align: center;
+
+}
+
+.itemSquareSmall
+{
+    position: relative;
+    height: 54px;
+    width: 54px;
+    border: double 5px;
+    border-radius: 6px;
+    border-color: black;
+    background-color: #f0f0f0;
+
+    margin-bottom: 10px;
+    margin-left: 20px;
+    margin-top: 60px;
+
+    box-shadow: 2px 3px 1px #888888;
+
+    text-align: center;
+
+}
+
+.itemLevelSmall
+{
+    position: absolute;
+    height: 23px;
+    width: 19px;
+    border-right: double 4px;
+    border-top: double 4px;
+    border-bottom: double 4px;
+
+    border-color: #8f8f8f;
+    background-color: #172d3f;
+
+    text-align: right;
+    font-size: 11px;
+    padding-right: 4px;
+    line-height: 0px;
+    box-shadow: 2px 3px 1px #888888;
+}
+
+.psmall
+{
+    /*line-height: 22% !important;*/
+}
+
+.pline
+{
+    line-height: 2px;
+}
+
+.pstats
+{
+    text-align: left;
+    padding-left: 5px;
+    font-family: monospace;
+    font-size: 6pt;
+    font-weight: 600;
+    line-height: 26%;
+}
+
+.plevel
+{
+    text-align:center;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.prank
+{
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.hlevel
+{
+    text-align: center;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.itemLevel
+{
+    position: absolute;
+    height: 100px;
+    width: 58px;
+    border: double 4px;
+
+    border-color: #8f8f8f;
+
+    background-color: #172d3f;
+    text-align: right;
+    font-size: 11px;
+    padding-right: 4px;
+    line-height: 0px;
+
+    box-shadow: 2px 3px 1px #888888;
+}
+
+
+.statsCPU
+{
+    border-left-style: solid;
+    border-left-width: 1px;
+    border-radius: 0 3px 3px 0;
+    top: 61px;
+    left: 128px;
+}
+
+.statsVirus
+{
+    border-left-style: solid;
+    border-left-width: 1px;
+    border-radius: 0 3px 3px 0;
+    top: 239px;
+    left: 128px;
+}
+
+.statsShield
+{
+    border-radius: 3px 0px 0px 3px;
+    top: 61px;
+    left: 4px;
+    border-right-style: solid;
+    border-right-width: 1px;
+}
+
+.statsPower
+{
+    border-radius: 3px 0px 0px 3px;
+    top: 239px;
+    left: 4px;
+    border-right-style: solid;
+    border-right-width: 1px;
+}
+
+.statsHDD
+{
+    text-align: center;
+    margin-left: 4px;
+    border-radius: 0px 3px 0px 3px;
+    top: 421px;
+    left: 78px;
+}
+
+.statsMemory
+{
+    text-align: center;
+    margin-left: 4px;
+    border-radius: 0px 3px 0px 3px;
+    top: 421px;
+    left: 78px;
+}
+
+.statsNetwork
+{
+    text-align: center;
+    margin-left: 4px;
+    border-radius: 0px 3px 0px 3px;
+    top: 421px;
+    left: 148px;
+}
+
+.itemLevelRow2
+{
+    position: absolute;
+    top: 228px;
+    left: 96px;
+    height: 74px;
+    width: 58px;
+    border: double 4px;
+    border-radius: 0 3px 3px 0;
+    border-color: #8f8f8f;
+    border-left-style: solid;
+    border-left-width: 1px;
+    background-color: #e1e1e1;
+    text-align: right;
+    font-size: 11px;
+    padding-right: 4px;
+    line-height: 0px;
+
+    box-shadow: 2px 3px 1px #888888;
+}
+
+.pointsSquare
+{
+    position: absolute;
+    width: 100%;
+
+}
+
+.CPU
+{
+    background-image:url("img/CPU2.png");
+    background-size: 120px;
+    color: white;
+    background-repeat: no-repeat;
+    background-color: white;
+    background-position: center;
+
+}
+
+.Virus
+{
+    background-image:url("img/Virus2.png");
+    background-size: 120px;
+    color: pink;
+    background-repeat: no-repeat;
+    background-color: white;
+    background-position: center;
+}
+
+.Shield
+{
+    left: 70px;
+    background-image:url("img/Shield2.png");
+    background-size: 120px;
+    color: red;
+    background-repeat: no-repeat;
+    background-color: white;
+    background-position: center;
+}
+
+.Power
+{
+    background-image:url("img/Battery2.png");
+    background-size: 120px;
+    left: 70px;
+    background-repeat: no-repeat;
+    background-color: white;
+    background-position: center;
+}
+
+.Memory
+{
+    background-image:url("img/RAM.png");
+    background-size: 57px;
+    background-repeat: no-repeat;
+    background-color: white;
+    background-position: center;
+}
+
+.HDD
+{
+    background-image:url("img/HDD.png");
+    background-size: 57px;
+    background-repeat: no-repeat;
+    background-color: white;
+    background-position: center;
+}
+
+.Network
+{
+    background-image:url("img/Network.png");
+    background-size: 57px;
+    background-repeat: no-repeat;
+    background-color: white;
+    background-position: center;
+}
+
+.container1
+{
+    float: left;
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+    right: 0%;
+}
+
+.container2
+{
+    float: left;
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+    right: 28%;
+}
+
+.container3
+{
+    top: 520px;
+    position: inherit;
+    padding-top: 520px;
+}
+
+.column1
+{
+    float: left;
+    width: 36%;
+    position: relative;
+    left: 2%;
+    overflow: hidden;
+    height: 520px;
+}
+
+.column2
+{
+    float: left;
+    width: 19%;
+    position: relative;
+    left: 4%;
+    overflow: hidden;
+    height: 520px;
+}
+
+.column3
+{
+    float: left;
+    width: 36%;
+    position: relative;
+    left: 10%;
+    overflow: hidden;
+    height: 520px;
+}
+
+.InvisibleContainer
+{
+    position: fixed;
+    visibility: hidden;
+}
