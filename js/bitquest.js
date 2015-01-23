@@ -116,6 +116,7 @@ function nextInfo()
                 break;
 
                 case 8:
+                infoNumber = 0;
                 $('#infoBox').hide();
                 break;
             }
@@ -3922,6 +3923,7 @@ regions = [
         document.getElementById("gameWarning").innerHTML = Language[lang].Loading.Warning;
 
         document.getElementById("infoSquare").innerHTML = Language[lang].Description.infoText1;
+        document.getElementById("tabTutorial").innerHTML = Language[lang].Button.Guide;
     }
 
     function drawInventory() {

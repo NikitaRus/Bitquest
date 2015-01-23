@@ -373,7 +373,7 @@ padding-top: 3px;">Enviar</p>
 
                 </div>
 
-                <p style="font-size: 10pt; text-align: right;"> <input type="text" placeholder="Write a message" id="textMessage" style="width: 440px;padding-left: 10px;left: 20px;position: absolute;top: 707px; color: #35c5ff;background: #254E63;"><input type="text" placeholder="Facebook ID" id="textTo" style="width: 100px;padding-left: 10px;left: 20px;position: absolute;top: 677px; color: #35c5ff;background: #254E63;"><button id="buttonMessage" style="position: absolute;top: 706px;left: 465px; color: #35c5ff; background: #254E63; border-radius: 1px;">Message</button> v2.1</p>
+                <p style="font-size: 10pt; text-align: right;"> <input type="text" placeholder="Write a message" id="textMessage" style="width: 440px;padding-left: 10px;left: 20px;position: absolute;top: 707px; color: #35c5ff;background: #254E63;"><input type="text" placeholder="Facebook ID" id="textTo" style="width: 100px;padding-left: 10px;left: 20px;position: absolute;top: 677px; color: #35c5ff;background: #254E63;"><button id="buttonMessage" style="position: absolute;top: 706px;left: 465px; color: #35c5ff; background: #254E63; border-radius: 1px;">Message</button> v2.1.1</p>
             </div>
         </div>
 
@@ -393,7 +393,7 @@ padding-top: 3px;">Enviar</p>
         <div id="statisticsSquare" style="padding-top: 10px;"></div>
     </div>
     <div class="storeBox" id="instructionsBox" style="padding: 10px; width: 552px;">
-        <table width="100%" align="center"><tr><td id="tabInstructions" class="tabButton" style="width:200px">Instrucciones</td><td width="30%"></td><td align="right"><button id="closeInstructions" class="closeButton">X</button></td></tr></table>
+        <table width="100%" align="center"><tr><td id="tabInstructions" class="tabButton" style="width:200px">Instrucciones</td><td><button class="tabButton" id="tabTutorial" onclick="$('#infoBox').show(); $('#instructionsBox').hide();" style="height: 23px;margin-bottom: -3px;margin-left: 0px;margin-top: -3px;width: 150px;">Guia</button></td><td width="30%"></td><td align="right"><button id="closeInstructions" class="closeButton">X</button></td></tr></table>
         <div id="instructionsSquare" style="padding-top: 10px;"></div>
     </div>
     <div class="blackout" id="Blackout">

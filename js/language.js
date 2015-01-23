@@ -26,6 +26,7 @@ Language = {
             Fit: "Equipar",
             Unfit: "Quitar",
             Remove: "Eliminar",
+            Guide: "Guia"
 
 
         },
@@ -160,7 +161,8 @@ Language = {
             Uploading: "Uploading",
             Fit: "Fit",
             Unfit: "Unfit",
-            Remove: "Remove"
+            Remove: "Remove",
+            Guide: "Guide"
 
 
         },
