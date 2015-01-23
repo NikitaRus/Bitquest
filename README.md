@@ -8,7 +8,7 @@ map.xml
   < Map>
   < /Map>
   
-session\
+sessions\
 
 users\
 
